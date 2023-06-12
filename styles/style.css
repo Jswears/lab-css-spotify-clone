@@ -14,7 +14,6 @@ html {
 }
 
 #logo {
-  width: 234px;
   height: 72px;
 }
 
@@ -60,12 +59,44 @@ html {
 
 .header-text h1 {
   font-size: 6rem;
-  font-weight:300;
+  font-weight: 300;
   margin-bottom: 3rem;
 }
 
 .header-text p {
-    font-size: 1.5rem;
-    font-weight: lighter;
-    line-height: 1.5;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  line-height: 1.5;
+}
+
+.green-color {
+  color: #00b172;
+}
+
+#whats-on-spotify {
+  height: 50vh;
+  width: 90%;
+  margin: auto;
+}
+
+.centered {
+  margin: auto;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.flex-column {
+  flex: 25%;
+  align-self: center;
+  text-align: center;
+}
+
+.flex-column img {
+  height: 72px;
 }
